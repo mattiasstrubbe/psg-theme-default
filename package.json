@@ -1,7 +1,7 @@
 {
-  "name": "psg-theme-default",
+  "name": "psg-theme-hellogoodbye",
   "version": "1.1.0",
-  "description": "Default theme of postcss-style-guide",
+  "description": "hellogoodbye theme of postcss-style-guide",
   "main": "index.js",
   "scripts": {
     "test": "tape test"
@@ -15,7 +15,7 @@
     "style-guide",
     "postcss"
   ],
-  "author": "Masaaki Morishita",
+  "author": "Mattias Strubbe",
   "license": "MIT",
   "dependencies": {
     "suitcss-base": "^1.0.1"

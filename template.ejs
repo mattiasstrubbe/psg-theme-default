@@ -9,12 +9,9 @@
     <body>
       <div class="psg-wrapper">
         <nav class="psg-menu">
-          <a href="" class="psg-logo">
-            <img
-              title="Philosopher’s stone, logo of PostCSS"
-              src="http://postcss.github.io/postcss/logo-leftp.svg">
-          </a>
 
+          <h1><%= projectName %></h1>
+          
           <ul class="psg-ComponentList">
             <% if (Array.isArray(colorPalette) && colorPalette.length !== 0) { %>
               <a href="#color-palette" class="psg-ComponentList__item">
@@ -35,10 +32,7 @@
         </nav>
 
         <div class="psg-main">
-          <header class="psg-title">
-            <h1><%= projectName %></h1>
-          </header>
-
+          
           <div class="psg-container">
             <% if (Array.isArray(colorPalette) && colorPalette.length !== 0) { %>
             <section class="psg-section">
